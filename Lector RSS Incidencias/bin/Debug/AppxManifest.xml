@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest" xmlns:build="http://schemas.microsoft.com/developer/appx/2012/build" IgnorableNamespaces="build">
+  <!--
+    ESTE ARCHIVO DE MANIFIESTO DEL PAQUETE SE GENERA MEDIANTE EL PROCESO DE COMPILACIÓN.
+
+    Los cambios realizados en el archivo se perderán al regenerarlo. Para corregir los errores de este archivo, edite el archivo de origen .appxmanifest.
+
+    Para obtener más información acerca de los archivos de manifiesto del paquete, vea http://go.microsoft.com/fwlink/?LinkID=241727
+  -->
+  <Identity Name="ebaedea1-0368-4f11-8278-41d0ce607920" Version="1.0.0.0" Publisher="CN=ruben_000" ProcessorArchitecture="neutral" />
+  <Properties>
+    <DisplayName>Lector RSS Incidencias</DisplayName>
+    <PublisherDisplayName>ruben_000</PublisherDisplayName>
+    <Logo>images\storelogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.2.0</OSMinVersion>
+    <OSMaxVersionTested>6.2.0</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="ES-ES" />
+  </Resources>
+  <Applications>
+    <Application Id="App" StartPage="default.html">
+      <VisualElements DisplayName="Lector RSS Incidencias" Logo="images\logo.png" SmallLogo="images\smalllogo.png" Description="Lector RSS Incidencias" ForegroundText="light" BackgroundColor="#464646">
+        <DefaultTile ShowName="allLogos" />
+        <SplashScreen Image="images\splashscreen.png" />
+      </VisualElements>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+  </Capabilities>
+  <Dependencies>
+    <PackageDependency Name="Microsoft.WinJS.1.0.RC" MinVersion="1.0.8377.0" />
+  </Dependencies>
+  <build:Metadata>
+    <build:Item Name="VisualStudio" Version="11.0" />
+    <build:Item Name="OperatingSystem" Version="6.2.8400.0 (winmain_win8rc.120518-1423)" />
+    <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="11.0.50522.1" />
+    <build:Item Name="MakePri.exe" Version="6.2.8400.0 (winmain_win8rc.120518-1423)" />
+  </build:Metadata>
+</Package>

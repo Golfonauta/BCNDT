@@ -1,0 +1,9 @@
+c:\users\ruben_000\documents\visual studio 2012\Projects\Lector RSS Incidencias\Lector RSS Incidencias\bin\Debug\resources.pri
+c:\users\ruben_000\documents\visual studio 2012\Projects\Lector RSS Incidencias\Lector RSS Incidencias\bin\Debug\AppxManifest.xml
+c:\users\ruben_000\documents\visual studio 2012\Projects\Lector RSS Incidencias\Lector RSS Incidencias\bin\Debug\Lector RSS Incidencias.build.appxrecipe
+c:\users\ruben_000\documents\visual studio 2012\Projects\Lector RSS Incidencias\Lector RSS Incidencias\bld\Debug\priconfig.xml
+c:\users\ruben_000\documents\visual studio 2012\Projects\Lector RSS Incidencias\Lector RSS Incidencias\bld\Debug\layout.resfiles
+c:\users\ruben_000\documents\visual studio 2012\Projects\Lector RSS Incidencias\Lector RSS Incidencias\bld\Debug\resources.resfiles
+c:\users\ruben_000\documents\visual studio 2012\Projects\Lector RSS Incidencias\Lector RSS Incidencias\bld\Debug\pri.resfiles
+c:\users\ruben_000\documents\visual studio 2012\Projects\Lector RSS Incidencias\Lector RSS Incidencias\bld\Debug\LanguageQualifiers.txt
+c:\users\ruben_000\documents\visual studio 2012\Projects\Lector RSS Incidencias\Lector RSS Incidencias\bld\Debug\ProjectArchitectures.txt
