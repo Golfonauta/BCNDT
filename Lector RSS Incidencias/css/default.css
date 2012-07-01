@@ -2,13 +2,27 @@
     overflow-x: scroll;
     
 }
-/*
-#mapdiv {
-    
-    width: 200px;
-    height: 200px;
+
+#btnPos {
+    alignment-adjust:central;
 }
-    */
+#lon {
+    float: none;
+    
+}
+#lat {
+    float: none;
+    
+}
+
+#lonInfo {
+    float: left;
+    
+}
+#latInfo {
+    float: right;
+    
+}
 .columna {
     float: left;
     width: 600px;

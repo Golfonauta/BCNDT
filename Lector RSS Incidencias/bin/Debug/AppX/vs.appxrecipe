@@ -770,7 +770,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Sergio\Documents\GitHub\BCNDT\Lector RSS Incidencias\default.html">
       <PackagePath>default.html</PackagePath>
-      <Modified>2012-06-30T20:00:46.217</Modified>
+      <Modified>2012-07-01T12:38:09.942</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Sergio\Documents\GitHub\BCNDT\Lector RSS Incidencias\images\logo.png">
       <PackagePath>images\logo.png</PackagePath>
@@ -794,11 +794,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Sergio\Documents\GitHub\BCNDT\Lector RSS Incidencias\js\default.js">
       <PackagePath>js\default.js</PackagePath>
-      <Modified>2012-06-30T20:09:43.364</Modified>
+      <Modified>2012-07-01T12:37:06.658</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Sergio\Documents\GitHub\BCNDT\Lector RSS Incidencias\css\default.css">
       <PackagePath>css\default.css</PackagePath>
-      <Modified>2012-06-30T19:34:53.296</Modified>
+      <Modified>2012-07-01T12:39:00.437</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Sergio\Documents\GitHub\BCNDT\Lector RSS Incidencias\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>

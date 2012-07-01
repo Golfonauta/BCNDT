@@ -30,7 +30,9 @@
                 <h1 id="maintitle" class="win-title">Mis trayectos</h1>
             </header>
             <section id="content">
+                
                 <div id="incidentlist" data-win-control="WinJS.UI.ListView">
+
                 </div>
             </section>
         </div>
@@ -42,9 +44,23 @@
             </header>
             <section id="Section2">
 
+                <section id="lonInfo">
+                    <div>Longitud: </div>
+                    <div id="lon"></div>
+                </section>
+                <section id="latInfo">
+                    <div>Latitud: </div>
+                    <div id="lat"></div>
+                </section>
                 <div id="mapdiv"></div>
-                <button id="setPosition">My position</button>
-            
+                
+                <button id="btnPos">Go to my position</button>
+                <select id="mapType" >
+                    <option selected="selected">Select map type:</option>
+                    <option value="road">Road </option>
+                    <option value="birdseye">Birdseye</option>
+                    <option value="aerial">Aerial</option>
+                </select><span id="errorSpan2" style="display:none; font-size:x-large" >*</span>
             </section>
         </div>
 

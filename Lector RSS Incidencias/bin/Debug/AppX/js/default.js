@@ -7,6 +7,8 @@
     var activation = Windows.ApplicationModel.Activation;
     WinJS.strictProcessing();
     var map;
+    var template = Windows.UI.Notifications.ToastTemplateType.toastText01;
+
 
     app.onactivated = function (args) {
         if (args.detail.kind === activation.ActivationKind.launch) {
@@ -22,18 +24,51 @@
                 Microsoft.Maps.loadModule('Microsoft.Maps.Map', { callback: initMap });
                 centerPosition();
             }));
-            var button = document.getElementById("setPosition");
+            var button = document.getElementById("btnPos");
             button.addEventListener("click", buttonClickHandler, false);
+
+
+            var combo = document.getElementById("mapType");
+            combo.addEventListener("change", comboChange, false);
+
+            //this.folderType = element.querySelector("mapType");
+            //element.querySelector("#mapType").addEventListener("focus",
+            //         this.selectionChanged.bind(this), false);
         }
     };
 
-    
+    function comboChange()
+    {
+        var type = map.getMapTypeId();
+        switch (mapType.value) {
+            case 'road':
+                type = Microsoft.Maps.MapTypeId.road;
+                break;
+            case 'birdseye':
+                type = Microsoft.Maps.MapTypeId.birdseye;
+                break;
+            case 'aerial':
+                type = Microsoft.Maps.MapTypeId.aerial;
+                break;
+            default:
+
+                var toastXml = Windows.UI.Notifications.ToastNotificationManager.getTemplateContent(template);
+                var toastTextElements = toastXml.getElementsByTagName("text");
+                toastTextElements[0].appendChild(toastXml.createTextNode("Hello World!"));
+
+                toastXml.setAttribute("duration", "long");
+
+                type = Microsoft.Maps.MapTypeId.road;
+                break;
+
+        }
+        map.setView({ mapTypeId: type });
+    }
 
     function buttonClickHandler(eventInfo) {
 
         centerPosition();
     }
-
 
     //function initialize() {
     //    Microsoft.Maps.loadModule('Microsoft.Maps.Map', { callback: initMap });
@@ -42,9 +77,7 @@
 
     function initMap() {
         try {
-            //document.querySelector('#changeMapType').addEventListener('click', changeMapType, false);
-            //document.querySelector('#setLocation').addEventListener('click', centerPosition, false);
-
+            
             var mapOptions =
             {
                 credentials: "AjvpK9GXgOIPEO85JMqePbalHG1CgpQh73gISBXKR2HmKAYzAynw24ButKX2nNSo",
@@ -56,13 +89,16 @@
                 showMapTypeSelector: false,
                 showScalebar: true,
                 disableBirdseye: true,
+                enableSearchLogo:false,
+                enableClickableLogo:false,
                 zoom: 5
+
             };
 
             var mapDiv = document.querySelector("#mapdiv");
             mapDiv.addEventListener('click', tapped, false);
             map = new Microsoft.Maps.Map(mapDiv, mapOptions);
-            map.setOptions({ height: 400, width: 400 });
+            map.setOptions({ height: 400, width: 600 });
 
         }
         catch (e) {
@@ -97,8 +133,36 @@
             map.setView({ center: mapCenter, zoom: 15 });
 
             addPushPin(mapCenter);
+
+            document.getElementById("lon").innerText = loc.coordinate.longitude;
+            document.getElementById("lat").innerText = loc.coordinate.latitude;
         });
     }
+
+    //function trackloc() {
+    //    if (loc == null) loc = window.navigator.geolocation;
+    //    if (loc == null) watchId = loc.watchPosition(onPositionChanged, errorCallback);
+    //}
+
+    //var loc = null;
+    //loc = new Windows.Devices.Geolocation.
+
+    function changeMapType() {
+        var type = map.getMapTypeId();
+        switch (type) {
+            case Microsoft.Maps.MapTypeId.aerial:
+                type = Microsoft.Maps.MapTypeId.road;
+                break;
+            case Microsoft.Maps.MapTypeId.road:
+                type = Microsoft.Maps.MapTypeId.birdseye;
+                break;
+            default:
+                type = Microsoft.Maps.MapTypeId.aerial;
+                break;
+        }
+        map.setView({ center: map.getCenter(), mapTypeId: type });
+    }
+
 
     function addPushPin(location) {
         map.entities.clear();
