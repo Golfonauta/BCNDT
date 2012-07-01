@@ -2,10 +2,16 @@
     overflow-x: scroll;
     
 }
-
+/*
+#mapdiv {
+    
+    width: 200px;
+    height: 200px;
+}
+    */
 .columna {
     float: left;
-    width: 400px;
+    width: 600px;
 }
 
 #div1 {
@@ -24,7 +30,9 @@
 #container {
      display: -ms-grid;
      -ms-grid-columns: 4;
-     width: 100%
+     width: 100%;
+     
+     margin-left:120px;
 }
 
 /*body {

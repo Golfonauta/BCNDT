@@ -1,1 +1,1 @@
-c:\users\ruben_000\documents\visual studio 2012\Projects\Lector RSS Incidencias\Lector RSS Incidencias\Lector RSS Incidencias.jsproj;neutral
+C:\Users\Sergio\Documents\GitHub\BCNDT\Lector RSS Incidencias\Lector RSS Incidencias.jsproj;neutral

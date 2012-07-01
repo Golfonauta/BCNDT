@@ -1,7 +1,7 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta charset="utf-8" />
     <title>Lector_RSS_Incidencias</title>
 
@@ -10,59 +10,68 @@
     <script src="//Microsoft.WinJS.1.0.RC/js/base.js"></script>
     <script src="//Microsoft.WinJS.1.0.RC/js/ui.js"></script>
 
+    <!-- BingMaps JavaScript Control references -->
+    <script type="text/javascript" src="ms-appx:///Bing.Maps.JavaScript//js/veapicore.js"></script>
+    <script type="text/javascript" src="ms-appx:///Bing.Maps.JavaScript//js/veapiModules.js"></script>
+
     <!-- Lector_RSS_Incidencias references -->
     <link href="/css/default.css" rel="stylesheet" />
     <script src="/js/default.js"></script>
+
+    <!--<script>Microsoft.Maps.registerModule('clusterModule');</script>-->
 </head>
 <body>
+    
     <div id="container">
-    <div id="div1" class="columna" style="width: 75%">
-    <header id="banner">
+        <!--<p class="title">Daily Transit</p>-->
+        <div id="div1" class="columna">
+            <header id="banner">
 
-        <h1 id="maintitle" class="win-title">Mis trayectos</h1>
-    </header>
-    <section id="content">
-        <div id="incidentlist" data-win-control="WinJS.UI.ListView">
-
-
-        </div> 
-    </section>
-    </div>
-
-    <div id="div2" class="columna">
-    <header id="Header2">
-
-        <h1 id="H2" class="win-title">Mi posición</h1>
-    </header>
-    <section id="Section2">
-        <div id="Div4" data-win-control="WinJS.UI.ListView"></div> 
-    </section>
-</div>  
-
-    <div id="div3" class="columna">
-    <header id="Header3">
-
-        <h1 id="H3" class="win-title">RSS de Incidencias</h1>
-    </header>
-    <section id="Section3">
-        <div id="Div6" data-win-control="WinJS.UI.ListView"></div> 
-    </section>
-</div>
-
-<div id="div4" class="columna">
-    <header id="Header1">
-        <button id="Button1" class="win-backbutton">
-        </button>
-        <h1 id="H1" class="win-title">RSS de Incidencias</h1>
-    </header>
-    <section id="Section1">
-        <div id="Div2" data-win-control="WinJS.UI.ListView"></div> 
-    </section>
-</div>
+                <h1 id="maintitle" class="win-title">Mis trayectos</h1>
+            </header>
+            <section id="content">
+                <div id="incidentlist" data-win-control="WinJS.UI.ListView">
+                </div>
+            </section>
         </div>
 
+        <div id="div2" class="columna">
+            <header id="Header2">
 
-    
-    
+                <h1 id="H2" class="win-title">Mi posición</h1>
+            </header>
+            <section id="Section2">
+
+                <div id="mapdiv"></div>
+                <button id="setPosition">My position</button>
+            
+            </section>
+        </div>
+
+        <div id="div3" class="columna">
+            <header id="Header3">
+
+                <h1 id="H3" class="win-title">RSS de Incidencias</h1>
+            </header>
+            <section id="Section3">
+                <div id="Div6" data-win-control="WinJS.UI.ListView"></div>
+            </section>
+        </div>
+
+        <div id="div4" class="columna">
+            <header id="Header1">
+                <button id="Button1" class="win-backbutton">
+                </button>
+                <h1 id="H1" class="win-title">RSS de Incidencias</h1>
+            </header>
+            <section id="Section1">
+                <div id="Div2" data-win-control="WinJS.UI.ListView"></div>
+            </section>
+        </div>
+    </div>
+    <!--<div id="appbar" data-win-control="WinJS.UI.AppBar">
+        <button data-win-control="WinJS.UI.AppBarCommand" data-win-options="{id:'changeMapType', label:'Map Type', icon:'&#xE12B;',section:'global',tooltip:'New'}"></button>
+        <button data-win-control="WinJS.UI.AppBarCommand" data-win-options="{id:'setLocation', label:'Set Location', icon:'&#xE128;',section:'global',tooltip:'Set Location'}"></button>
+    </div>-->
 </body>
 </html>
