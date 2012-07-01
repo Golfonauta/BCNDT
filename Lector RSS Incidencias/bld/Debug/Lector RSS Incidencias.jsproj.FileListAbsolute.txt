@@ -20,3 +20,16 @@ C:\Users\PoL\Documents\GitHub\BCNDT\Lector RSS Incidencias\bld\Debug\priconfig.x
 C:\Users\PoL\Documents\GitHub\BCNDT\Lector RSS Incidencias\bld\Debug\layout.resfiles.intermediate
 C:\Users\PoL\Documents\GitHub\BCNDT\Lector RSS Incidencias\bld\Debug\resources.resfiles.intermediate
 C:\Users\PoL\Documents\GitHub\BCNDT\Lector RSS Incidencias\bld\Debug\pri.resfiles.intermediate
+C:\Users\Sergio\Documents\GitHub\BCNDTv0.2\Lector RSS Incidencias\bin\Debug\resources.pri
+C:\Users\Sergio\Documents\GitHub\BCNDTv0.2\Lector RSS Incidencias\bin\Debug\AppxManifest.xml
+C:\Users\Sergio\Documents\GitHub\BCNDTv0.2\Lector RSS Incidencias\bin\Debug\Lector RSS Incidencias.build.appxrecipe
+C:\Users\Sergio\Documents\GitHub\BCNDTv0.2\Lector RSS Incidencias\bld\Debug\priconfig.xml
+C:\Users\Sergio\Documents\GitHub\BCNDTv0.2\Lector RSS Incidencias\bld\Debug\layout.resfiles
+C:\Users\Sergio\Documents\GitHub\BCNDTv0.2\Lector RSS Incidencias\bld\Debug\resources.resfiles
+C:\Users\Sergio\Documents\GitHub\BCNDTv0.2\Lector RSS Incidencias\bld\Debug\pri.resfiles
+C:\Users\Sergio\Documents\GitHub\BCNDTv0.2\Lector RSS Incidencias\bld\Debug\LanguageQualifiers.txt
+C:\Users\Sergio\Documents\GitHub\BCNDTv0.2\Lector RSS Incidencias\bld\Debug\ProjectArchitectures.txt
+C:\Users\Sergio\Documents\GitHub\BCNDTv0.2\Lector RSS Incidencias\bld\Debug\priconfig.xml.intermediate
+C:\Users\Sergio\Documents\GitHub\BCNDTv0.2\Lector RSS Incidencias\bld\Debug\layout.resfiles.intermediate
+C:\Users\Sergio\Documents\GitHub\BCNDTv0.2\Lector RSS Incidencias\bld\Debug\resources.resfiles.intermediate
+C:\Users\Sergio\Documents\GitHub\BCNDTv0.2\Lector RSS Incidencias\bld\Debug\pri.resfiles.intermediate

@@ -1,6 +1,33 @@
 ﻿body {
     overflow-x: scroll;    
 }
+
+#btnPos {
+    alignment-adjust:central;
+}
+#lon {
+    float: none;
+    
+}
+#lat {
+    float: none;
+}
+
+#mapdiv {
+    alignment-adjust: central;
+    margin-left: 30px;   
+    margin-right: auto; 
+}
+
+#lonInfo {
+    float: left;
+    display: block;
+}
+#latInfo {
+    float: right;
+    display: block;
+}
+
 #div1 {
     -ms-grid-column: 1;	
 	width: 460px
@@ -9,6 +36,7 @@
 	margin-left: 15px;
     -ms-grid-column: 2;
 	width: 460px;
+
 }
 #div3 {
 	margin-left: 15px;

@@ -10,6 +10,10 @@
     <script src="//Microsoft.WinJS.1.0.RC/js/base.js"></script>
     <script src="//Microsoft.WinJS.1.0.RC/js/ui.js"></script>
 
+    <!-- BingMaps JavaScript Control references -->
+    <script type="text/javascript" src="ms-appx:///Bing.Maps.JavaScript//js/veapicore.js"></script>
+    <script type="text/javascript" src="ms-appx:///Bing.Maps.JavaScript//js/veapiModules.js"></script>
+
     <!-- Lector_RSS_Incidencias references -->
     <link href="/css/default.css" rel="stylesheet" />
     <script src="/js/data.js"></script>
@@ -66,7 +70,24 @@
                 <h1 id="H2" class="win-title">Mi posición</h1>
             </header>
             <section id="Section2">
-                <div id="Div4" data-win-control="WinJS.UI.ListView"></div> 
+                <section id="lonInfo">
+                    <div>Longitud: </div>
+                    <div id="lon"></div>
+                </section>
+                <section id="latInfo">
+                    <div>Latitud: </div>
+                    <div id="lat"></div>
+                </section>
+                <div id="mapdiv"></div>
+                
+                <button id="btnPos">Go to my position</button>
+                <select id="mapType" >
+                    <option selected="selected">Select map type:</option>
+                    <option value="road">Road </option>
+                    <option value="birdseye">Birdseye</option>
+                    <option value="aerial">Aerial</option>
+                </select><span id="errorSpan2" style="display:none; font-size:x-large" >*</span>
+   
             </section>
         </div>  
 

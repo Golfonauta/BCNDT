@@ -63,6 +63,7 @@
     <None Include="Lector RSS Incidencias_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
+    <SDKReference Include="Bing.Maps.JavaScript, Version=1.0" />
     <SDKReference Include="Microsoft.WinJS.1.0.RC, Version=1.0" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\$(WMSJSProjectDirectory)\Microsoft.VisualStudio.$(WMSJSProject).targets" />

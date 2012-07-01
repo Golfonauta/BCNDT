@@ -1,54 +1,92 @@
 ﻿<!DOCTYPE html>
-<html>
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <meta charset="utf-8" />
-    <title>splitPage</title>
+<html>   
+    <head>
+         <title>Formulario nuevo trayecto</title>
+          <!-- WinJS references -->
+        <link href="//Microsoft.WinJS.1.0.RC/css/ui-dark.css" rel="stylesheet" />
+        <script src="//Microsoft.WinJS.1.0.RC/js/base.js"></script>
+        <script src="//Microsoft.WinJS.1.0.RC/js/ui.js"></script>
 
-    <!-- WinJS references -->
-    <link href="//Microsoft.WinJS.1.0.RC/css/ui-dark.css" rel="stylesheet" />
-    <script src="//Microsoft.WinJS.1.0.RC/js/base.js"></script>
-    <script src="//Microsoft.WinJS.1.0.RC/js/ui.js"></script>
-    
-    <link href="/css/default.css" rel="stylesheet" />
-    <link href="/htmls/formulario.css" rel="stylesheet" />
-    <script src="/js/data.js"></script>
-    <script src="/htmls/formulario.js"></script>
-</head>
-<body>
-    <!-- This template is used to display each item in the ListView declared below. -->
-    <div class="itemtemplate" data-win-control="WinJS.Binding.Template">
-        <img class="item-image" src="#" data-win-bind="src: backgroundImage; alt: title" />
-        <div class="item-info">
-            <h3 class="item-title win-type-ellipsis" data-win-bind="textContent: title"></h3>
-            <h6 class="item-subtitle win-type-ellipsis" data-win-bind="textContent: subtitle"></h6>
-            <h4 class="item-description" data-win-bind="textContent: description"></h4>
-        </div>
-    </div>
-
-    <!-- The content that will be loaded and displayed. -->
-    <div class="splitpage fragment">
-        <header aria-label="Header content" role="banner">
-            <button class="win-backbutton" aria-label="Back" disabled></button>
-            <h1 class="titlearea win-type-ellipsis">
-                <span class="pagetitle"></span>
-            </h1>
-        </header>
-        <div class="itemlistsection" aria-label="List column">
-            <div class="itemlist" aria-label="List of this group's items" data-win-control="WinJS.UI.ListView" data-win-options="{ selectionMode: 'single', tapBehavior: 'toggleSelect' }"></div>
-        </div>
-        <div class="articlesection" aria-atomic="true" aria-label="Item detail column" aria-live="assertive">
-            <article>
-                <header class="header">
-                    <div class="text">
-                        <h2 class="article-title win-type-ellipsis" data-win-bind="textContent: title"></h2>
-                        <h4 class="article-subtitle" data-win-bind="textContent: subtitle"></h4>
-                    </div>
-                    <img class="article-image" src="#" data-win-bind="src: backgroundImage; alt: title" />
+        <link href="/htmls/formulario.css" rel="stylesheet" />
+        <script src="/htmls/formulario.js"></script>
+    </head>
+    <body>
+         <div id="container">
+            <div id="div1" class="columna" >
+                <header id="banner">
+                    <h1 id="maintitle" class="win-title">Nuevo trayecto</h1>
                 </header>
-                <div class="article-content" data-win-bind="innerHTML: content"></div>
-            </article>
-        </div>
-    </div>
-</body>
+                <section id="content">
+                    <div class="box">
+						<div class="ajustada">
+							<label for="origenIN">Origen: </label>
+							<input style="margin-left: 4px;"id="origenIN" name="origenIN" type="text" />
+						</div>
+                        <div class="ajustada">
+							<label for="destinoIN">Destino: </label>
+							<input id="destinoIN" name="destinoIN" type="text" />
+						</div>	
+						<div class="ajustada">
+							<label for="repiteCHECK">¿Se repite? </label>
+                        <input id="repiteCHECK" name="repiteCHECK" type="checkbox" />
+						</div>	
+                        
+                        <div class="repetitivo">							
+                            <label >Horario habitual: </label>
+							<div class="ajustada2" style="width: 50%; margin-left: 25%;">
+								<label for="inicioIN">Inicio:</label>
+								<input name="inicioIN" type="time"  style="width: 50px"/>
+								<label for="finIN">Fin:</label>
+								<input name="finIN" type="time" style="width: 50px"/>
+							</div>
+							<div class="ajustada2">
+								<label>Dias de la semana:</label>
+								<div id="magicTrick" style="width: 75%; margin-left: 12%; display: block; ">
+									<label for="lunes">L</label>
+									<input type="checkbox" name="lunes" id="lunes"/>
+									<label for="martes">M</label>
+									<input type="checkbox" name="martes" id="martes"/>
+									<label for="miercoles">X</label>
+									<input type="checkbox" name="miercoles" id="miercoles"/>
+									<label for="jueves">J</label>
+									<input type="checkbox" name="jueves" id="jueves"/>
+									<label for="viernes">V</label>
+									<input type="checkbox" name="viernes" id="viernes"/>
+									<label for="sabado">S</label>
+									<input type="checkbox" name="sabado" id="sabado"/>
+									<label for="domingo">D</label>
+									<input type="checkbox" name="domingo" id=domingo"/>
+								</div>
+							</div>
+
+                            
+                        </div>
+                        
+                    </div>
+                </section>
+            </div>
+			<div id="div2" class="columna">
+				<header id="Header2">
+					<h1 id="H2" class="win-title">Preferencias</h1>
+				</header>
+				<section id="Section2">
+					<div class="box">
+						<div>
+							<label for="metro">Metro</label>
+							<input type="checkbox" name="metro" id="metro"/>
+						</div>
+						<div>
+							<label for="Bus">Bus</label>
+							<input type="checkbox" name="bus" id="bus" style="margin-left: 17px; "/>
+						</div>
+						<div>
+							<label for="Tren">Tren</label>
+							<input type="checkbox" name="tren" id="tren" style="margin-left: 10px; "/>
+						</div>
+					</div>
+				</section>
+			</div>  
+         </div>
+
+    </body>
 </html>
