@@ -1,0 +1,38 @@
+﻿.box {
+    height: 100%;
+    width: 100%;
+    padding-top: 120px;
+}
+.repetitivo {
+    padding-left: 40px;
+	
+}
+body {
+    overflow-x: scroll;    
+}
+#div1 {
+    -ms-grid-column: 1;	
+	width: 460px;
+}
+#div2{
+    -ms-grid-column: 2;	
+	width: 460px;
+}
+#container {
+     display: -ms-grid; 
+	 margin-left: 120px;
+	 padding-top: 220px;
+}
+#magicTrick > input{
+	margin-left: -5px;
+}
+.ajustada > label{
+	margin-right: 15px;	
+}
+.ajustada > input{
+	margin-right: 0px;
+}
+#Section2 .box div > label{
+	margin-right: 15px;
+}
+	

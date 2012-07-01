@@ -51,12 +51,15 @@
       <SubType>Designer</SubType>
     </AppxManifest>
     <Content Include="default.html" />
+    <Content Include="htmls\formulario.html" />
+    <Content Include="htmls\formulario.css" />
     <Content Include="images\logo.png" />
     <Content Include="images\smalllogo.png" />
     <Content Include="images\splashscreen.png" />
     <Content Include="images\storelogo.png" />
     <Content Include="js\default.js" />
     <Content Include="css\default.css" />
+    <Content Include="js\data.js" />
     <None Include="Lector RSS Incidencias_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>

@@ -1,6 +1,5 @@
 ﻿body {
-    overflow-x: scroll;
-    
+    overflow-x: scroll;    
 }
 
 #btnPos {
@@ -12,50 +11,82 @@
 }
 #lat {
     float: none;
-    
+}
+
+#mapdiv {
+    alignment-adjust: central;
+    margin-left: 30px;   
+    margin-right: auto; 
 }
 
 #lonInfo {
     float: left;
-    
+    display: block;
 }
 #latInfo {
     float: right;
-    
-}
-.columna {
-    float: left;
-    width: 600px;
+    display: block;
 }
 
 #div1 {
-    -ms-grid-column: 1;
+    -ms-grid-column: 1;	
+	width: 460px
 }
 #div2 {
+	margin-left: 15px;
     -ms-grid-column: 2;
+	width: 460px;
+
 }
 #div3 {
+	margin-left: 15px;
     -ms-grid-column: 3;
+	width: 460px;
 }
 #div4 {
+	margin-left: 15px;
     -ms-grid-column: 4;
+	width: 460px;	
 }
 
 #container {
-     display: -ms-grid;
-     -ms-grid-columns: 4;
-     width: 100%;
-     
-     margin-left:120px;
+     display: -ms-grid; 
+	 margin-left: 120px;
+	 padding-top: 220px;
 }
 
+#basicListView.win-listview 
+{
+    height: 100%; 
+    width: 100%; 
+    border: 2px solid gray;
+}
+#mediumListIconTextTemplate {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: white;
+}
+.celda {
+    background: black;
+    width: 100%;
+    height: 120px;
+}
+#GridAlternatives {
+    width: 100%;
+    height: 100%;
+}
+    
+.columna {	
+    height: 100%;    
+	background: grey;
+}
+    
 /*body {
 }
     
 
-.columna {
-    float: left;
-}
+
 
 @media screen and (-ms-view-state: fullscreen-landscape) {
   

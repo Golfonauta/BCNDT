@@ -5,7 +5,7 @@
     <WindowsUser>Sergio</WindowsUser>
     <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
     <PackageArchitecture>neutral</PackageArchitecture>
-    <RegisteredManifestChecksum>4E0C50485D97435E6691BA45A5053265D017ABC8C8D322EBB618280F71A0F34A</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>F86091921D8B0C8D94F19C1D6DCF0C591CDD15BC02C730FE39BD50E417F16D18</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>ebaedea1-0368-4f11-8278-41d0ce607920_1.0.0.0_neutral__40xjb2vvh3220</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>ebaedea1-0368-4f11-8278-41d0ce607920_40xjb2vvh3220!App</RegisteredUserModeAppID>
     <RegisteredPackageID>ebaedea1-0368-4f11-8278-41d0ce607920</RegisteredPackageID>
@@ -13,10 +13,10 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Sergio\Documents\GitHub\BCNDT\Lector RSS Incidencias\bin\Debug\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Sergio\Documents\GitHub\BCNDTv0.2\Lector RSS Incidencias\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2012-06-30T18:52:14.469</Modified>
+      <Modified>2012-07-01T13:11:34.470</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -768,41 +768,53 @@
       <PackagePath>Bing.Maps.JavaScript\js\veapiModules.js</PackagePath>
       <Modified>2012-06-30T17:59:46.920</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sergio\Documents\GitHub\BCNDT\Lector RSS Incidencias\default.html">
+    <AppxPackagedFile Include="C:\Users\Sergio\Documents\GitHub\BCNDTv0.2\Lector RSS Incidencias\default.html">
       <PackagePath>default.html</PackagePath>
-      <Modified>2012-07-01T12:38:09.942</Modified>
+      <Modified>2012-07-01T13:23:14.622</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sergio\Documents\GitHub\BCNDT\Lector RSS Incidencias\images\logo.png">
+    <AppxPackagedFile Include="C:\Users\Sergio\Documents\GitHub\BCNDTv0.2\Lector RSS Incidencias\htmls\formulario.html">
+      <PackagePath>htmls\formulario.html</PackagePath>
+      <Modified>2012-07-01T03:43:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sergio\Documents\GitHub\BCNDTv0.2\Lector RSS Incidencias\htmls\formulario.css">
+      <PackagePath>htmls\formulario.css</PackagePath>
+      <Modified>2012-07-01T03:43:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sergio\Documents\GitHub\BCNDTv0.2\Lector RSS Incidencias\css\default.css">
+      <PackagePath>css\default.css</PackagePath>
+      <Modified>2012-07-01T13:27:09.799</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sergio\Documents\GitHub\BCNDTv0.2\Lector RSS Incidencias\images\logo.png">
       <PackagePath>images\logo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2012-06-30T17:38:44.687</Modified>
+      <Modified>2012-07-01T03:43:48.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sergio\Documents\GitHub\BCNDT\Lector RSS Incidencias\images\smalllogo.png">
+    <AppxPackagedFile Include="C:\Users\Sergio\Documents\GitHub\BCNDTv0.2\Lector RSS Incidencias\images\smalllogo.png">
       <PackagePath>images\smalllogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2012-06-30T17:38:44.696</Modified>
+      <Modified>2012-07-01T03:43:48.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sergio\Documents\GitHub\BCNDT\Lector RSS Incidencias\images\splashscreen.png">
+    <AppxPackagedFile Include="C:\Users\Sergio\Documents\GitHub\BCNDTv0.2\Lector RSS Incidencias\images\splashscreen.png">
       <PackagePath>images\splashscreen.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2012-06-30T17:38:44.710</Modified>
+      <Modified>2012-07-01T03:43:48.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sergio\Documents\GitHub\BCNDT\Lector RSS Incidencias\images\storelogo.png">
+    <AppxPackagedFile Include="C:\Users\Sergio\Documents\GitHub\BCNDTv0.2\Lector RSS Incidencias\images\storelogo.png">
       <PackagePath>images\storelogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2012-06-30T17:38:44.712</Modified>
+      <Modified>2012-07-01T03:43:48.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sergio\Documents\GitHub\BCNDT\Lector RSS Incidencias\js\default.js">
+    <AppxPackagedFile Include="C:\Users\Sergio\Documents\GitHub\BCNDTv0.2\Lector RSS Incidencias\js\default.js">
       <PackagePath>js\default.js</PackagePath>
-      <Modified>2012-07-01T12:37:06.658</Modified>
+      <Modified>2012-07-01T13:18:55.086</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sergio\Documents\GitHub\BCNDT\Lector RSS Incidencias\css\default.css">
-      <PackagePath>css\default.css</PackagePath>
-      <Modified>2012-07-01T12:39:00.437</Modified>
+    <AppxPackagedFile Include="C:\Users\Sergio\Documents\GitHub\BCNDTv0.2\Lector RSS Incidencias\js\data.js">
+      <PackagePath>js\data.js</PackagePath>
+      <Modified>2012-07-01T03:43:48.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sergio\Documents\GitHub\BCNDT\Lector RSS Incidencias\bin\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Sergio\Documents\GitHub\BCNDTv0.2\Lector RSS Incidencias\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2012-06-30T18:04:04.505</Modified>
+      <Modified>2012-07-01T13:11:34.272</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

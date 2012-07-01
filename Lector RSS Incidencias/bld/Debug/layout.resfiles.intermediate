@@ -1,7 +1,10 @@
 css\default.css
 default.html
+htmls\formulario.css
+htmls\formulario.html
 images\logo.png
 images\smalllogo.png
 images\splashscreen.png
 images\storelogo.png
+js\data.js
 js\default.js

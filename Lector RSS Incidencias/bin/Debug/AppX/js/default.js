@@ -9,36 +9,35 @@
     var map;
     var template = Windows.UI.Notifications.ToastTemplateType.toastText01;
 
-
     app.onactivated = function (args) {
         if (args.detail.kind === activation.ActivationKind.launch) {
             if (args.detail.previousExecutionState !== activation.ApplicationExecutionState.terminated) {
-                
+                // TODO: Esta aplicación se ha iniciado recientemente. Inicializar
+                // la aplicación aquí.
             } else {
-                
-                
+                // TODO: Esta aplicación se ha reactivado tras estar suspendida.
+                // Restaurar el estado de la aplicación aquí.
             }
+            //incidentList = new WinJS.Binding.List();
+            //var publicMembers = { ItemList: articlesList };
+            //WinJS.Namespace.define("C9Data", publicMembers);
 
-            //args.setPromise(WinJS.UI.processAll());
+
             args.setPromise(WinJS.UI.processAll().then(function () {
                 Microsoft.Maps.loadModule('Microsoft.Maps.Map', { callback: initMap });
                 centerPosition();
             }));
+
             var button = document.getElementById("btnPos");
             button.addEventListener("click", buttonClickHandler, false);
 
 
             var combo = document.getElementById("mapType");
             combo.addEventListener("change", comboChange, false);
-
-            //this.folderType = element.querySelector("mapType");
-            //element.querySelector("#mapType").addEventListener("focus",
-            //         this.selectionChanged.bind(this), false);
         }
     };
 
-    function comboChange()
-    {
+    function comboChange() {
         var type = map.getMapTypeId();
         switch (mapType.value) {
             case 'road':
@@ -52,11 +51,11 @@
                 break;
             default:
 
-                var toastXml = Windows.UI.Notifications.ToastNotificationManager.getTemplateContent(template);
-                var toastTextElements = toastXml.getElementsByTagName("text");
-                toastTextElements[0].appendChild(toastXml.createTextNode("Hello World!"));
+                //var toastXml = Windows.UI.Notifications.ToastNotificationManager.getTemplateContent(template);
+                //var toastTextElements = toastXml.getElementsByTagName("text");
+                //toastTextElements[0].appendChild(toastXml.createTextNode("Hello World!"));
 
-                toastXml.setAttribute("duration", "long");
+                //toastXml.setAttribute("duration", "long");
 
                 type = Microsoft.Maps.MapTypeId.road;
                 break;
@@ -77,7 +76,7 @@
 
     function initMap() {
         try {
-            
+
             var mapOptions =
             {
                 credentials: "AjvpK9GXgOIPEO85JMqePbalHG1CgpQh73gISBXKR2HmKAYzAynw24ButKX2nNSo",
@@ -85,12 +84,12 @@
                 //mapTypeId: Microsoft.Maps.MapTypeId.road,
                 mapTypeId: Microsoft.Maps.MapTypeId.aerial,
                 showBreadcrumb: false,
-                showDashboard:false,
+                showDashboard: false,
                 showMapTypeSelector: false,
                 showScalebar: true,
                 disableBirdseye: true,
-                enableSearchLogo:false,
-                enableClickableLogo:false,
+                enableSearchLogo: false,
+                enableClickableLogo: false,
                 zoom: 5
 
             };
@@ -98,7 +97,7 @@
             var mapDiv = document.querySelector("#mapdiv");
             mapDiv.addEventListener('click', tapped, false);
             map = new Microsoft.Maps.Map(mapDiv, mapOptions);
-            map.setOptions({ height: 400, width: 600 });
+            map.setOptions({ height: 350, width: 400 });
 
         }
         catch (e) {
@@ -180,9 +179,4 @@
     };
 
     app.start();
-
-   
-
-
-
 })();
