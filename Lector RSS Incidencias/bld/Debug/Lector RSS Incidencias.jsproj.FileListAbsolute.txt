@@ -7,3 +7,16 @@ c:\users\ruben_000\documents\visual studio 2012\Projects\Lector RSS Incidencias\
 c:\users\ruben_000\documents\visual studio 2012\Projects\Lector RSS Incidencias\Lector RSS Incidencias\bld\Debug\pri.resfiles
 c:\users\ruben_000\documents\visual studio 2012\Projects\Lector RSS Incidencias\Lector RSS Incidencias\bld\Debug\LanguageQualifiers.txt
 c:\users\ruben_000\documents\visual studio 2012\Projects\Lector RSS Incidencias\Lector RSS Incidencias\bld\Debug\ProjectArchitectures.txt
+C:\Users\PoL\Documents\GitHub\BCNDT\Lector RSS Incidencias\bin\Debug\resources.pri
+C:\Users\PoL\Documents\GitHub\BCNDT\Lector RSS Incidencias\bin\Debug\AppxManifest.xml
+C:\Users\PoL\Documents\GitHub\BCNDT\Lector RSS Incidencias\bin\Debug\Lector RSS Incidencias.build.appxrecipe
+C:\Users\PoL\Documents\GitHub\BCNDT\Lector RSS Incidencias\bld\Debug\priconfig.xml
+C:\Users\PoL\Documents\GitHub\BCNDT\Lector RSS Incidencias\bld\Debug\layout.resfiles
+C:\Users\PoL\Documents\GitHub\BCNDT\Lector RSS Incidencias\bld\Debug\resources.resfiles
+C:\Users\PoL\Documents\GitHub\BCNDT\Lector RSS Incidencias\bld\Debug\pri.resfiles
+C:\Users\PoL\Documents\GitHub\BCNDT\Lector RSS Incidencias\bld\Debug\LanguageQualifiers.txt
+C:\Users\PoL\Documents\GitHub\BCNDT\Lector RSS Incidencias\bld\Debug\ProjectArchitectures.txt
+C:\Users\PoL\Documents\GitHub\BCNDT\Lector RSS Incidencias\bld\Debug\priconfig.xml.intermediate
+C:\Users\PoL\Documents\GitHub\BCNDT\Lector RSS Incidencias\bld\Debug\layout.resfiles.intermediate
+C:\Users\PoL\Documents\GitHub\BCNDT\Lector RSS Incidencias\bld\Debug\resources.resfiles.intermediate
+C:\Users\PoL\Documents\GitHub\BCNDT\Lector RSS Incidencias\bld\Debug\pri.resfiles.intermediate
