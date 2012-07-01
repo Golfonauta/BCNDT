@@ -32,10 +32,10 @@
     <ProjectConfiguration Include="Release|x86">
       <Configuration>Release</Configuration>
       <Platform>x86</Platform>
-    </ProjectConfiguration>
+    </ProjectConfiguration>  
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>ebaedea1-0368-4f11-8278-41d0ce607920</ProjectGuid>
+    <ProjectGuid>09bdf41a-76e7-4a2c-befb-26e3b7d67119</ProjectGuid>
   </PropertyGroup>
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\$(WMSJSProjectDirectory)\Microsoft.VisualStudio.$(WMSJSProject).Default.props" />
@@ -44,23 +44,28 @@
     <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
     <TargetPlatformVersion>8.0</TargetPlatformVersion>
     <DefaultLanguage>es-ES</DefaultLanguage>
-    <PackageCertificateKeyFile>Lector RSS Incidencias_TemporaryKey.pfx</PackageCertificateKeyFile>
+    <PackageCertificateKeyFile>App1_TemporaryKey.pfx</PackageCertificateKeyFile>
   </PropertyGroup>
   <ItemGroup>
     <AppxManifest Include="package.appxmanifest">
       <SubType>Designer</SubType>
     </AppxManifest>
-    <Content Include="default.html" />
-    <Content Include="htmls\formulario.html" />
-    <Content Include="htmls\formulario.css" />
+    <Content Include="css\default.css" />
     <Content Include="images\logo.png" />
     <Content Include="images\smalllogo.png" />
     <Content Include="images\splashscreen.png" />
     <Content Include="images\storelogo.png" />
-    <Content Include="js\default.js" />
-    <Content Include="css\default.css" />
     <Content Include="js\data.js" />
-    <None Include="Lector RSS Incidencias_TemporaryKey.pfx" />
+    <Content Include="js\default.js" />
+	  <Content Include="js\navigator.js" />
+    <Content Include="pages\items\items.css" />
+    <Content Include="pages\items\items.html" />
+    <Content Include="pages\items\items.js" />
+    <Content Include="pages\split\split.css" />
+    <Content Include="pages\split\split.html" />
+    <Content Include="pages\split\split.js" />
+    <Content Include="default.html" />
+    <None Include="App1_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
     <SDKReference Include="Microsoft.WinJS.1.0.RC, Version=1.0" />
