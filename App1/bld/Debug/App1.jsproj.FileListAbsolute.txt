@@ -1,0 +1,13 @@
+C:\Users\PoL\Documents\GitHub\BCNDT\App1\bin\Debug\resources.pri
+C:\Users\PoL\Documents\GitHub\BCNDT\App1\bin\Debug\AppxManifest.xml
+C:\Users\PoL\Documents\GitHub\BCNDT\App1\bin\Debug\App1.build.appxrecipe
+C:\Users\PoL\Documents\GitHub\BCNDT\App1\bld\Debug\priconfig.xml.intermediate
+C:\Users\PoL\Documents\GitHub\BCNDT\App1\bld\Debug\layout.resfiles.intermediate
+C:\Users\PoL\Documents\GitHub\BCNDT\App1\bld\Debug\resources.resfiles.intermediate
+C:\Users\PoL\Documents\GitHub\BCNDT\App1\bld\Debug\pri.resfiles.intermediate
+C:\Users\PoL\Documents\GitHub\BCNDT\App1\bld\Debug\priconfig.xml
+C:\Users\PoL\Documents\GitHub\BCNDT\App1\bld\Debug\layout.resfiles
+C:\Users\PoL\Documents\GitHub\BCNDT\App1\bld\Debug\resources.resfiles
+C:\Users\PoL\Documents\GitHub\BCNDT\App1\bld\Debug\pri.resfiles
+C:\Users\PoL\Documents\GitHub\BCNDT\App1\bld\Debug\LanguageQualifiers.txt
+C:\Users\PoL\Documents\GitHub\BCNDT\App1\bld\Debug\ProjectArchitectures.txt
